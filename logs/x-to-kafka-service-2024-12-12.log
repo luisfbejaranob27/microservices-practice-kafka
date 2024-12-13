@@ -1,0 +1,46 @@
+12-12-2024 21:54:12.792 [restartedMain] [x-to-kafka-service, ] INFO  c.l.x.to.kafka.XToKafkaApplication.logStarting -
+				Starting XToKafkaApplication using Java 21.0.5 with PID 17344 (C:\Users\luisfbejaranob\Workspace\Java\microservices-practice-kafka\x-to-kafka\build\classes\java\main started by luisfbejaranob in C:\Users\luisfbejaranob\Workspace\Java\microservices-practice-kafka)
+12-12-2024 21:54:12.795 [restartedMain] [x-to-kafka-service, ] INFO  c.l.x.to.kafka.XToKafkaApplication.logStartupProfileInfo -
+				No active profile set, falling back to 1 default profile: "default"
+12-12-2024 21:54:12.850 [restartedMain] [x-to-kafka-service, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo -
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+12-12-2024 21:54:13.621 [restartedMain] [x-to-kafka-service, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer -
+				LiveReload server is running on port 35729
+12-12-2024 21:54:13.656 [restartedMain] [x-to-kafka-service, ] INFO  c.l.x.to.kafka.XToKafkaApplication.logStarted -
+				Started XToKafkaApplication in 2.248 seconds (process running for 5.26)
+12-12-2024 21:54:13.661 [restartedMain] [x-to-kafka-service, ] INFO  c.l.x.to.kafka.XToKafkaApplication.run -
+				X to Kafka service Started...
+12-12-2024 21:54:13.661 [restartedMain] [x-to-kafka-service, ] INFO  c.l.x.to.kafka.XToKafkaApplication.run -
+				[Java, Microservices, Spring, Kafka, Elasticsearch]
+12-12-2024 21:54:13.661 [restartedMain] [x-to-kafka-service, ] INFO  c.l.x.to.kafka.XToKafkaApplication.run -
+				Test message...
+12-12-2024 21:54:13.662 [restartedMain] [x-to-kafka-service, ] INFO  c.l.x.t.k.r.MockKafkaStreamRunner.start -
+				Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+12-12-2024 21:54:13.781 [pool-1-thread-1] [x-to-kafka-service, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: Maecenas libero Maecenas porttitor Spring magna adipiscing
+12-12-2024 21:54:23.784 [pool-1-thread-1] [x-to-kafka-service, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: ultricies dolor ipsum Maecenas dolor Microservices libero dolor Lorem
+12-12-2024 21:54:33.792 [pool-1-thread-1] [x-to-kafka-service, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: magna dolor congue consectetuer sed Elasticsearch dolor libero massa
+12-12-2024 21:54:43.794 [pool-1-thread-1] [x-to-kafka-service, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: congue lectus Fusce Java ipsum porttitor
+12-12-2024 21:54:53.810 [pool-1-thread-1] [x-to-kafka-service, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: Fusce porttitor Fusce pulvinar adipiscing Elasticsearch adipiscing Fusce libero
+12-12-2024 21:55:03.820 [pool-1-thread-1] [x-to-kafka-service, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: malesuada malesuada Maecenas ultricies lectus dolor Spring dolor libero dolor Maecenas dolor
+12-12-2024 21:55:13.831 [pool-1-thread-1] [x-to-kafka-service, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: congue lectus pulvinar sit Microservices purus libero dolor
+12-12-2024 21:55:23.837 [pool-1-thread-1] [x-to-kafka-service, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: purus ultricies malesuada consectetuer Fusce Kafka Maecenas porttitor porttitor
+12-12-2024 21:55:33.850 [pool-1-thread-1] [x-to-kafka-service, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: dolor congue purus Microservices Fusce amet
+12-12-2024 21:55:43.863 [pool-1-thread-1] [x-to-kafka-service, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: libero elit ipsum massa magna Java sed sit consectetuer
+12-12-2024 21:55:53.878 [pool-1-thread-1] [x-to-kafka-service, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: adipiscing adipiscing purus Lorem porttitor Java Lorem lectus lectus Maecenas
+12-12-2024 21:56:03.885 [pool-1-thread-1] [x-to-kafka-service, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: amet sit Maecenas malesuada Elasticsearch amet sed
+12-12-2024 21:56:13.899 [pool-1-thread-1] [x-to-kafka-service, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: lectus adipiscing malesuada malesuada sed sit dolor lectus Kafka massa Lorem dolor consectetuer Fusce massa
+12-12-2024 21:56:23.907 [pool-1-thread-1] [x-to-kafka-service, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: Lorem ultricies dolor lectus amet malesuada Microservices congue libero Fusce Lorem pulvinar
