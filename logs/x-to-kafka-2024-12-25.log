@@ -1,0 +1,88 @@
+25-12-2024 13:02:35.257 [main] [x-to-kafka, ] INFO  c.l.x.to.kafka.XToKafkaApplication.logStarting -
+				Starting XToKafkaApplication using Java 21.0.5 with PID 14848 (C:\Users\luisfbejaranob\Workspace\Java\microservices-practice-kafka\x-to-kafka\build\classes\java\main started by luisfbejaranob in C:\Users\luisfbejaranob\Workspace\Java\microservices-practice-kafka)
+25-12-2024 13:02:35.262 [main] [x-to-kafka, ] INFO  c.l.x.to.kafka.XToKafkaApplication.logStartupProfileInfo -
+				No active profile set, falling back to 1 default profile: "default"
+25-12-2024 13:02:36.603 [main] [x-to-kafka, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize -
+				Tomcat initialized with port 8080 (http)
+25-12-2024 13:02:36.621 [main] [x-to-kafka, ] INFO  o.a.coyote.http11.Http11NioProtocol.log -
+				Initializing ProtocolHandler ["http-nio-8080"]
+25-12-2024 13:02:36.625 [main] [x-to-kafka, ] INFO  o.a.catalina.core.StandardService.log -
+				Starting service [Tomcat]
+25-12-2024 13:02:36.625 [main] [x-to-kafka, ] INFO  o.a.catalina.core.StandardEngine.log -
+				Starting Servlet engine: [Apache Tomcat/10.1.34]
+25-12-2024 13:02:36.687 [main] [x-to-kafka, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log -
+				Initializing Spring embedded WebApplicationContext
+25-12-2024 13:02:36.688 [main] [x-to-kafka, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext -
+				Root WebApplicationContext: initialization completed in 1296 ms
+25-12-2024 13:02:37.239 [main] [x-to-kafka, ] INFO  o.a.coyote.http11.Http11NioProtocol.log -
+				Starting ProtocolHandler ["http-nio-8080"]
+25-12-2024 13:02:37.261 [main] [x-to-kafka, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start -
+				Tomcat started on port 8080 (http) with context path '/'
+25-12-2024 13:02:37.271 [main] [x-to-kafka, ] INFO  c.l.x.to.kafka.XToKafkaApplication.logStarted -
+				Started XToKafkaApplication in 3.085 seconds (process running for 6.155)
+25-12-2024 13:02:37.277 [main] [x-to-kafka, ] INFO  c.l.x.to.kafka.XToKafkaApplication.run -
+				X to Kafka service Started...
+25-12-2024 13:02:37.277 [main] [x-to-kafka, ] INFO  c.l.x.to.kafka.XToKafkaApplication.run -
+				[Java, Microservices, Spring, Kafka, Elasticsearch]
+25-12-2024 13:02:37.278 [main] [x-to-kafka, ] INFO  c.l.x.to.kafka.XToKafkaApplication.run -
+				Test message...
+25-12-2024 13:02:37.279 [main] [x-to-kafka, ] INFO  c.l.x.t.k.r.MockKafkaStreamRunner.start -
+				Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+25-12-2024 13:02:37.426 [pool-1-thread-1] [x-to-kafka, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: libero sit elit purus Microservices posuere porttitor Fusce
+25-12-2024 13:02:47.428 [pool-1-thread-1] [x-to-kafka, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: adipiscing sed ultricies sit congue Microservices sed magna congue
+25-12-2024 13:02:57.434 [pool-1-thread-1] [x-to-kafka, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: lectus consectetuer massa pulvinar sit porttitor massa Microservices ipsum adipiscing posuere massa amet
+25-12-2024 13:03:07.443 [pool-1-thread-1] [x-to-kafka, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: ultricies purus congue Lorem ipsum libero malesuada sed Spring amet Fusce posuere elit purus adipiscing
+25-12-2024 13:03:17.448 [pool-1-thread-1] [x-to-kafka, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: sit adipiscing sit Java elit Fusce
+25-12-2024 13:03:27.458 [pool-1-thread-1] [x-to-kafka, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: consectetuer purus lectus Fusce massa purus Java elit purus posuere ipsum
+25-12-2024 13:03:37.011 [SpringApplicationShutdownHook] [x-to-kafka, ] INFO  o.s.b.w.e.tomcat.GracefulShutdown.shutDownGracefully -
+				Commencing graceful shutdown. Waiting for active requests to complete
+25-12-2024 13:03:37.018 [tomcat-shutdown] [x-to-kafka, ] INFO  o.s.b.w.e.tomcat.GracefulShutdown.doShutdown -
+				Graceful shutdown complete
+25-12-2024 13:03:45.722 [main] [x-to-kafka, ] INFO  c.l.x.to.kafka.XToKafkaApplication.logStarting -
+				Starting XToKafkaApplication using Java 21.0.5 with PID 17864 (C:\Users\luisfbejaranob\Workspace\Java\microservices-practice-kafka\x-to-kafka\build\classes\java\main started by luisfbejaranob in C:\Users\luisfbejaranob\Workspace\Java\microservices-practice-kafka)
+25-12-2024 13:03:45.725 [main] [x-to-kafka, ] INFO  c.l.x.to.kafka.XToKafkaApplication.logStartupProfileInfo -
+				No active profile set, falling back to 1 default profile: "default"
+25-12-2024 13:03:49.386 [main] [x-to-kafka, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize -
+				Tomcat initialized with port 8080 (http)
+25-12-2024 13:03:49.404 [main] [x-to-kafka, ] INFO  o.a.coyote.http11.Http11NioProtocol.log -
+				Initializing ProtocolHandler ["http-nio-8080"]
+25-12-2024 13:03:49.407 [main] [x-to-kafka, ] INFO  o.a.catalina.core.StandardService.log -
+				Starting service [Tomcat]
+25-12-2024 13:03:49.408 [main] [x-to-kafka, ] INFO  o.a.catalina.core.StandardEngine.log -
+				Starting Servlet engine: [Apache Tomcat/10.1.34]
+25-12-2024 13:03:49.477 [main] [x-to-kafka, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log -
+				Initializing Spring embedded WebApplicationContext
+25-12-2024 13:03:49.477 [main] [x-to-kafka, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext -
+				Root WebApplicationContext: initialization completed in 3690 ms
+25-12-2024 13:03:50.098 [main] [x-to-kafka, ] INFO  o.a.coyote.http11.Http11NioProtocol.log -
+				Starting ProtocolHandler ["http-nio-8080"]
+25-12-2024 13:03:50.123 [main] [x-to-kafka, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start -
+				Tomcat started on port 8080 (http) with context path '/'
+25-12-2024 13:03:50.134 [main] [x-to-kafka, ] INFO  c.l.x.to.kafka.XToKafkaApplication.logStarted -
+				Started XToKafkaApplication in 6.4 seconds (process running for 7.914)
+25-12-2024 13:03:50.139 [main] [x-to-kafka, ] INFO  c.l.x.to.kafka.XToKafkaApplication.run -
+				X to Kafka service Started...
+25-12-2024 13:03:50.139 [main] [x-to-kafka, ] INFO  c.l.x.to.kafka.XToKafkaApplication.run -
+				[Java, Microservices, Spring, Kafka, Elasticsearch]
+25-12-2024 13:03:50.139 [main] [x-to-kafka, ] INFO  c.l.x.to.kafka.XToKafkaApplication.run -
+				Test message...
+25-12-2024 13:03:50.140 [main] [x-to-kafka, ] INFO  c.l.x.t.k.r.MockKafkaStreamRunner.start -
+				Starting mock filtering twitter streams for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+25-12-2024 13:03:50.259 [pool-1-thread-1] [x-to-kafka, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: ipsum ipsum elit ipsum Fusce malesuada sit Microservices elit ultricies purus congue consectetuer
+25-12-2024 13:04:00.263 [pool-1-thread-1] [x-to-kafka, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: amet porttitor consectetuer Microservices porttitor Fusce
+25-12-2024 13:04:10.267 [pool-1-thread-1] [x-to-kafka, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: congue adipiscing elit dolor massa ultricies Microservices malesuada dolor libero Lorem Fusce
+25-12-2024 13:04:20.310 [pool-1-thread-1] [x-to-kafka, ] INFO  c.l.x.t.k.l.XToKafkaStatusListener.onStatus -
+				X tweet: malesuada congue magna consectetuer magna purus Kafka magna sit malesuada purus
+25-12-2024 13:04:26.514 [SpringApplicationShutdownHook] [x-to-kafka, ] INFO  o.s.b.w.e.tomcat.GracefulShutdown.shutDownGracefully -
+				Commencing graceful shutdown. Waiting for active requests to complete
+25-12-2024 13:04:26.526 [tomcat-shutdown] [x-to-kafka, ] INFO  o.s.b.w.e.tomcat.GracefulShutdown.doShutdown -
+				Graceful shutdown complete

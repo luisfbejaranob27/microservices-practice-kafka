@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: x-to-kafka
+
+logging:
+  file:
+    path: logs
+
+x-to-kafka-service:
+  x-keywords:
+    - Java
+    - Microservices
+    - Spring
+    - Kafka
+    - Elasticsearch
+  message: "Test message..."
+  enable-mock-tweets: true
+  mock-min-tweet-length: 5
+  mock-max-tweet-length: 15
+  mock-sleep-ms: 10000
